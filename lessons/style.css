@@ -1,0 +1,48 @@
+ body{
+  margin: 0;
+ }
+ #sdf{
+      color: green;
+    }
+ ul{
+      color: red;
+    }
+    li{
+      color:grey;
+    }
+    .active{
+      color:blue;
+    }
+    .spisok>ul>li{
+      font-size:120%;
+      color: #000;
+    }
+    .blocks{
+      background: red;
+      height: 100px;
+      width:31%;
+      float:left;
+      margin:0;
+      padding:10px;
+      border:2px solid #000;
+    }
+    .parent{
+      width: 100%;
+      background: yellow;
+      text-align: center;
+      clear: both;
+    }
+    .child{
+      width:200px;
+      height: 200px;
+      background: blue;
+      margin: 10px auto;
+    }
+    .imgtxt{
+      float: left;
+      margin-right: 20px;
+    }
+    .txt{
+      width: 300px;
+      float: left;
+    }

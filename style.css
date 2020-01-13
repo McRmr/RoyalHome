@@ -1,0 +1,86 @@
+body
+{
+	margin:10px;
+	padding:0px;
+	background-color:	#FFF0F5;
+}
+.capital_letter
+{
+	font-family: Chiller, Arial, 'Times New Roman';
+	font-size:40px;
+	color:#7FFFD4; /*Aquamarine*/
+}
+/*
+Для задания размеров различных элементов, в CSS используются абсолютные и относительные единицы измерения.
+     
+            Абсолютные единицы не зависят от устройства вывода, а 
+            относительные единицы определяют размер элемента относительно значения другого размера. 
+
+            - ОТНОСИТЕЛЬНЫЕ ЕДИНИЦЫ:
+
+                1. Em - Высота шрифта текущего элемента
+                2. Ex - Высота символа x
+                3. Px - Пиксел
+                4. %   - Процент от размера шрифта по умолчанию
+
+            Относительные единицы обычно используют для работы с текстом, 
+            либо когда надо вычислить процентное соотношение между элементами.
+
+            - АБСОЛЮТНЫЕ ЕДИНИЦЫ:
+
+                1. in - Дюйм (1 дюйм равен 2,54 см)
+                2. cm - Сантиметр
+                3. mm - Миллиметр
+                4. Pc - Пика (1 пика равна 12 пунктам)
+                5. Pt - Пункт (1 пункт равен 1/72 дюйма)
+
+            Абсолютные единицы применяются реже, чем относительные и, 
+            как правило, при работе с текстом.
+*/
+
+/* Main disign*/
+div.main
+	{
+	background:#F0FFF0;
+	height:auto;
+	width:80%;
+	float:left;
+	margin:1%;
+	padding:3%;
+	border:2px solid #000;
+	}
+
+
+p {color:gray;}
+div ul li{
+	color:blue;
+	float:left;
+	height:auto;
+	width:33%;
+	}
+.active{color:#125;}
+#qwer {color:green;}
+
+/* .spisok>u1>li {font-size:120%;}
+.blocks {
+	background:red;
+	height:200px;
+	width:100px;
+	float:left;
+	margin
+	padding
+	border:2px solid #000;}
+	
+	.parent {
+		width:100;
+		color: #025;
+	}
+.imgtxt {
+	float:left;
+	margin-right: 20px;
+	
+}
+.txt {
+	float:left;
+	width:300px;
+} */
