@@ -8,7 +8,7 @@ body
 {
 	font-family: Chiller, Arial, 'Times New Roman';
 	font-size:40px;
-	color:#7FFFD4; /*Aquamarine*/
+	color:rgb(2, 211, 141); /*Aquamarine*/
 }
 /*
 Для задания размеров различных элементов, в CSS используются абсолютные и относительные единицы измерения.
@@ -41,7 +41,7 @@ body
 /* Main disign*/
 div.main
 	{
-	background:#F0FFF0;
+	background:rgb(223, 223, 226);
 	height:auto;
 	width:80%;
 	float:left;
@@ -53,7 +53,7 @@ div.main
 
 p {color:gray;}
 div ul li{
-	color:blue;
+	color:rgb(46, 46, 70);
 	float:left;
 	height:auto;
 	width:33%;
