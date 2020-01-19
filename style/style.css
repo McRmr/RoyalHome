@@ -1,0 +1,42 @@
+body
+{
+	margin:0.5%;
+	padding:0px;
+	background-color:	rgb(241, 220, 163);	
+	font: medium Arial, 'Time new roman', Helvetica;
+
+}
+.header
+{	
+}
+
+#topPan
+{
+	font-family: 'Libre Franklin', sans-serif;
+	
+	font-family: 'Playfair Display SC', serif;
+	/* position: relative; */
+	
+}
+img.logo 
+{
+	height: 10%;
+	float:left;
+
+
+}
+#topPan p.caption
+{
+	background-image: url("/image/Top_picture.png") ;
+	background-size: cover;
+	background-position: center right;
+	height: 40%;
+	width: 100%;
+	font-size: 4em;
+	font-weight: 600;
+text-align: center; 
+margin:0px;
+padding:0px;
+
+
+}
