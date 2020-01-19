@@ -1,86 +1,41 @@
 body
 {
-	margin:10px;
+	margin:0.5%;
 	padding:0px;
-	background-color:	#FFF0F5;
+	background-color:	rgb(241, 220, 163);	
+	font: medium Arial, 'Time new roman', Helvetica;
+
 }
-.capital_letter
+.header
+{	
+}
+
+#topPan
 {
-	font-family: Chiller, Arial, 'Times New Roman';
-	font-size:40px;
-	color:rgb(2, 211, 141); /*Aquamarine*/
-}
-/*
-Для задания размеров различных элементов, в CSS используются абсолютные и относительные единицы измерения.
-     
-            Абсолютные единицы не зависят от устройства вывода, а 
-            относительные единицы определяют размер элемента относительно значения другого размера. 
-
-            - ОТНОСИТЕЛЬНЫЕ ЕДИНИЦЫ:
-
-                1. Em - Высота шрифта текущего элемента
-                2. Ex - Высота символа x
-                3. Px - Пиксел
-                4. %   - Процент от размера шрифта по умолчанию
-
-            Относительные единицы обычно используют для работы с текстом, 
-            либо когда надо вычислить процентное соотношение между элементами.
-
-            - АБСОЛЮТНЫЕ ЕДИНИЦЫ:
-
-                1. in - Дюйм (1 дюйм равен 2,54 см)
-                2. cm - Сантиметр
-                3. mm - Миллиметр
-                4. Pc - Пика (1 пика равна 12 пунктам)
-                5. Pt - Пункт (1 пункт равен 1/72 дюйма)
-
-            Абсолютные единицы применяются реже, чем относительные и, 
-            как правило, при работе с текстом.
-*/
-
-/* Main disign*/
-div.main
-	{
-	background:rgb(223, 223, 226);
-	height:auto;
-	width:80%;
-	float:left;
-	margin:1%;
-	padding:3%;
-	border:2px solid rgb(34, 206, 100);
-	}
-
-
-p {color:gray;}
-div ul li{
-	color:rgb(46, 46, 70);
-	float:left;
-	height:auto;
-	width:33%;
-	}
-.active{color:#125;}
-#qwer {color:green;}
-
-/* .spisok>u1>li {font-size:120%;}
-.blocks {
-	background:red;
-	height:200px;
-	width:100px;
-	float:left;
-	margin
-	padding
-	border:2px solid #000;}
-	
-	.parent {
-		width:100;
-		color: #025;
-	}
-.imgtxt {
-	float:left;
-	margin-right: 20px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Playfair Display SC', serif;
+	/* position: relative; */
 	
 }
-.txt {
+img.logo 
+{
+	height: 10%;
 	float:left;
-	width:300px;
-} */
+
+
+}
+#topPan p.caption
+{
+	background-image: url("/image/Top_picture.png") ;
+	background-size: cover;
+	background-position: center right;
+	height: 40%;
+	width: 100%;
+	font-size: 4em;
+	font-weight: 600;
+text-align: center; 
+margin:0px;
+padding:0px;
+
+
+}
